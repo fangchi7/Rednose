@@ -1,0 +1,76 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  color: #1d1220;
+  margin-bottom: 0px;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+}
+header.jumbotron .container {
+  color: #1d1220;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #712300;
+}
+header.jumbotron h4 {
+  color: rgba(76, 39, 128, 0.8);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #712300;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://npost.tw/wp-content/uploads/2015/09/6f4bc0f05ea8065c0e4630ec58b5b9d9.jpeg);
+  height: 300px;
+  background-size: cover;
+}
+section#section_ask h4 {
+  color: #f3eeb3;
+}
+section#section_ask h2 {
+  margin-top: 110px;
+  padding: 0px 40px;
+  color: white;
+}
+section#section_ask h3 {
+  padding: 0px 40px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 350px;
+  overflow: hidden;
+}
+
+section#section_talk {
+  padding: 50px 0px;
+  background-color: #712300;
+}
+section#section_talk .col-sm-8 h1 {
+  color: #f8d54e;
+}
+section#section_talk .col-sm-8 h3 {
+  color: #fefaf9;
+}
